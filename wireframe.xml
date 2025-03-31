@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2025-03-31T12:00:00Z" agent="Mozilla/5.0" version="15.8.7" type="device">
+  <!-- ページ1: Login -->
+  <diagram id="page_1" name="1. Login">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- 大枠（背景） -->
+        <mxCell id="login_bg" value="Login Screen" style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#F2F2F2;strokeColor=#999999;fontSize=16" vertex="1" parent="1">
+          <mxGeometry x="80" y="50" width="500" height="400" as="geometry"/>
+        </mxCell>
+
+        <!-- アプリロゴ部分 -->
+        <mxCell id="login_logo" value="App Logo" style="whiteSpace=wrap;html=1;align=center;fillColor=#FFFFFF;strokeColor=#CCCCCC;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="250" y="60" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- メール入力欄 -->
+        <mxCell id="login_email" value="Email Address" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFFFFF;strokeColor=#CCCCCC;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="300" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- パスワード入力欄 -->
+        <mxCell id="login_pw" value="Password" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFFFFF;strokeColor=#CCCCCC;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="150" y="190" width="300" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- ログインボタン -->
+        <mxCell id="login_button" value="ログイン" style="whiteSpace=wrap;html=1;align=center;fillColor=#2979FF;strokeColor=#0059C8;fontColor=#FFFFFF;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="200" y="250" width="200" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- パスワード忘れリンク -->
+        <mxCell id="login_forgot" value="パスワードを忘れた方" style="textDecoration=underline;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=none;fontSize=12;fontColor=#0000EE" vertex="1" parent="1">
+          <mxGeometry x="220" y="300" width="160" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- 新規登録リンク -->
+        <mxCell id="login_newreg" value="新規登録" style="textDecoration=underline;whiteSpace=wrap;html=1;align=center;fillColor=none;strokeColor=none;fontSize=12;fontColor=#0000EE" vertex="1" parent="1">
+          <mxGeometry x="240" y="330" width="120" height="20" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ2: Dashboard -->
+  <diagram id="page_2" name="2. Dashboard">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- ヘッダー -->
+        <mxCell id="dash_header" value="ヘッダー: [ロゴ] [ユーザー名/ログアウト]" style="whiteSpace=wrap;html=1;align=left;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+        
+        <!-- サイドバー -->
+        <mxCell id="dash_sidebar" value="サイドバー: \n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;align=left;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- メインエリア: 運営者ダッシュボード例 -->
+        <mxCell id="dash_main" value="メインエリア:\n- 進行中の大会\n- 担当試合一覧\n- お知らせ" style="whiteSpace=wrap;html=1;align=left;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="200" y="80" width="400" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- 例: ウィジェット -->
+        <mxCell id="dash_widget1" value="ウィジェット例: \n本日の試合数" style="whiteSpace=wrap;html=1;align=center;fillColor=#FEF9E7;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="dash_widget2" value="ウィジェット例: \n未確定スコア" style="whiteSpace=wrap;html=1;align=center;fillColor=#FEF9E7;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="620" y="180" width="150" height="80" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ3: 大会一覧 -->
+  <diagram id="page_3" name="3. 大会一覧 (Tournament List)">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Header -->
+        <mxCell id="tournlist_header" value="ヘッダー (大会管理)" style="whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+
+        <!-- Sidebar -->
+        <mxCell id="tournlist_sidebar" value="サイドバー:\n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- フィルタUI -->
+        <mxCell id="tournlist_filter" value="フィルタ:\n- 名称\n- 日付\n- ステータス" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="400" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- 大会リストエリア -->
+        <mxCell id="tournlist_main" value="大会リスト:\n- 大会A [詳細]\n- 大会B [詳細]\n...\n(運営者: [新規作成])" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="160" width="400" height="220" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ4: 大会詳細 -->
+  <diagram id="page_4" name="4. 大会詳細 (Tournament Detail)">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Header & Sidebar -->
+        <mxCell id="tourn_detail_header" value="ヘッダー (大会管理)" style="whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="tourn_detail_sidebar" value="サイドバー:\n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- 大会詳細タブ (概要) -->
+        <mxCell id="tourn_detail_tab1" value="大会概要:\n- 日程, 場所, ルール\n- スポンサー/ロゴ" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="400" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- 大会詳細タブ (チーム, ドロー etc) -->
+        <mxCell id="tourn_detail_tab2" value="チーム一覧 / ドロー表示 / コート割当" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="220" width="400" height="160" as="geometry"/>
+        </mxCell>
+
+        <!-- 大会設定(運営者のみ) -->
+        <mxCell id="tourn_detail_setting_btn" value="[大会設定]" style="whiteSpace=wrap;html=1;fillColor=#E8F8F5;strokeColor=#666666;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="650" y="80" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- 大会紐付試合一覧リンク -->
+        <mxCell id="tourn_detail_matches_btn" value="大会試合一覧へ" style="whiteSpace=wrap;html=1;fillColor=#FDEDEC;strokeColor=#666666;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="650" y="120" width="80" height="30" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ5: 試合管理(試合一覧/詳細/スコア入力) -->
+  <diagram id="page_5" name="5. 試合管理 (Match & Score)">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Header & Sidebar -->
+        <mxCell id="match_header" value="ヘッダー (試合管理)" style="whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="match_sidebar" value="サイドバー:\n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- 試合一覧 -->
+        <mxCell id="match_list" value="試合一覧:\n- 対戦カード, ステータス, コート\n- (審判/運営者)新規作成" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="350" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- 試合詳細 -->
+        <mxCell id="match_detail" value="試合詳細:\n- チームA vs チームB\n- スコア(ゲーム数)\n- [スコア入力]" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="350" height="120" as="geometry"/>
+        </mxCell>
+
+        <!-- スコア入力UI -->
+        <mxCell id="match_scoreinput" value="スコア入力:\n- ポイント +1 ボタン\n- デュース自動判定\n- [試合終了]" style="whiteSpace=wrap;html=1;fillColor=#FFF8E6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="580" y="80" width="300" height="200" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ6: 分析 (ランキング/AI) -->
+  <diagram id="page_6" name="6. 分析 (Analysis)">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Header & Sidebar -->
+        <mxCell id="analysis_header" value="ヘッダー (分析)" style="whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="analysis_sidebar" value="サイドバー:\n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- ランキング画面 -->
+        <mxCell id="analysis_ranking" value="ランキング:\n- 個人ランキング\n- チームランキング" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="350" height="150" as="geometry"/>
+        </mxCell>
+
+        <!-- AI分析画面 -->
+        <mxCell id="analysis_ai" value="AI分析:\n- 勝率予測\n- ショット傾向\n- (将来)動画連携" style="whiteSpace=wrap;html=1;fillColor=#EBF5FB;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="250" width="350" height="150" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ページ7: マイページ -->
+  <diagram id="page_7" name="7. マイページ (MyPage)">
+    <mxGraphModel dx="1200" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Header & Sidebar -->
+        <mxCell id="mypage_header" value="ヘッダー (マイページ)" style="whiteSpace=wrap;html=1;fillColor=#D6EAF8;strokeColor=#999999;fontSize=14" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="600" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="mypage_sidebar" value="サイドバー:\n- 大会管理\n- 試合管理\n- 分析\n- マイページ" style="whiteSpace=wrap;html=1;fillColor=#F4F6F6;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="50" y="80" width="140" height="300" as="geometry"/>
+        </mxCell>
+
+        <!-- プロフィール/通知設定 -->
+        <mxCell id="mypage_profile" value="プロフィール:\n- 名前, メール, アイコン\n通知設定" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="80" width="350" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- チーム管理 (コーチ/選手) -->
+        <mxCell id="mypage_team" value="チーム管理:\n- 所属チーム, メンバー追加\n(コーチ権限)" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="200" width="350" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- 過去試合履歴 (選手) -->
+        <mxCell id="mypage_history" value="過去試合履歴:\n- スコア一覧, 勝敗, 詳細へ" style="whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#999999;fontSize=12" vertex="1" parent="1">
+          <mxGeometry x="210" y="320" width="350" height="100" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
